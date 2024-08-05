@@ -3,9 +3,8 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './styles/main.css';  // Import CSS file
 
-ReactDOM.render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
 );
